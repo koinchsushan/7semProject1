@@ -1,0 +1,35 @@
+.btn {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  color: aliceblue;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #042a4b;
+  transition: transform 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  border: solid #042a4b 1px;
+  color: #042a4b;
+  background-color: white;
+  transition: 0.5s ease-out;
+  transform: translateY(-3px);
+}
+
+@media only screen and (min-width: 992px){
+  .btn {
+    width: 85%;
+   font-size: 14px
+  }
+}

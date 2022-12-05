@@ -1,0 +1,109 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+
+  height: 285px;
+  background-color: #06f9f929;
+  margin-top: 5%;
+}
+
+.footer-nav {
+  margin-top: 5%;
+  width: 35%;
+  margin-left: 5%;
+  align-self: flex-start;
+}
+
+h5 {
+  color: #00f3ff;
+}
+
+.footer-info {
+  align-self: center;
+  margin-left: 10%;
+  width: 20%;
+}
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-self: center;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 450;
+  margin-top: -10px;
+  color: #056868;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 2%;
+}
+
+li {
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 30px;
+  margin-top: -15px;
+  color: #056868;
+}
+
+.email-field {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.contactus {
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 992px) {
+  p {
+    margin-top: 2%;
+  }
+  .diseaselabel {
+    margin: 2% 38% auto auto;
+  }
+  .container {
+    height: 344px;
+  }
+
+  .h1-text {
+    font-size: 27px;
+    font-weight: 550;
+  }
+
+  .h3-text {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-top: 6%;
+  }
+  .h2-text {
+    font-size: 30px;
+    letter-spacing: 7.5px;
+  }
+
+  .para-text {
+    padding: 32px 0px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .banner-text {
+    height: 95.3%;
+  }
+  .b-img {
+    width: 85%;
+    margin-left: 2%;
+    margin-top: 15%;
+  }
+  .btn-box {
+    width: 20%;
+    margin-bottom: 2%;
+  }
+}

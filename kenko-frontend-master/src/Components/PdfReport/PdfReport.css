@@ -1,0 +1,65 @@
+body{
+    font-family:Roboto;
+}
+.pdfreport{
+    margin-top:5%;
+    margin-left:15%;
+    display: flex;
+    flex-direction: column;
+    row-gap:25px;
+    font-weight: 400;
+    font-size:1.2em;
+   
+}
+
+.pr{
+    text-align: center;
+   
+    color:navy
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.save-btn{
+    background-color:turquoise;
+   color:white;
+   font-family: Microsoft Sans Serif;
+   font-size: small;
+   margin:2%;
+   width:6%;
+   border-radius: 1px;
+   box-shadow: 0 0 5px rgb(7, 125, 146);
+}
+
+.watermark {
+   
+    display: block;
+    
+  }
+  
+  .watermark::after {
+    content: "";
+   background:url(../images/kenko-png.png);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+z-index: -1;   
+position:absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:550px;
+  }
+
+  .contact{
+      float:right;
+      margin-top: 8%;
+      margin-right:3%;
+      font-size:1em;
+      line-height: 30px;
+  }
